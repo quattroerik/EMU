@@ -2,7 +2,9 @@
 
 # EMU – Expandable Multi-material Unit
 
-***In Development - Coming Soon***
+> [!WARNING] 
+> ***Under Active/Early Development*** <br/>
+> Build at your own risk
 
 **Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
