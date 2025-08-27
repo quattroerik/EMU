@@ -4,7 +4,7 @@
 
 **Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
-The EMU supports any number of lanes and base configurations; whether it is a single lane setup to assist filament loading, a dual lane configuration for endless spool, or a multi-lane, multi-box setup for multi-material printing. It is also expandable, with no re-printing of parts required when upgrading from a 2 lane to a multiple lane setup.
+The EMU supports any number of lanes and base configurations; whether it is a **single lane setup** to assist filament loading, a **dual lane configuration** for endless spool, or a **multi-lane, multi-box setup** for multi-material printing. It is also **expandable**, with no re-printing of parts required when upgrading from a 2 lane to a multiple lane setup.
 
 #### Highlights:
 - **Modular & Expandable** design, able to add lanes anytime and in any configuration. No reprints when upgrading from a 2 lane setup.
