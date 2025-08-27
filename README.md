@@ -2,9 +2,9 @@
 
 # EMU – Expandable Multi-material Unit
 
-**Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, upgradable, and service-friendly MMU designed around the proven filamentalist V3 platform.  
+**Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
-The EMU is built for flexibility, reliability, and ease of use. Whether you want a single lane to assist loading or a multi-lane setup for true multi-material printing, the EMU is able to easily grow with your needs and is modular to support any number of lane and base combinations.
+Whether you want a single lane to assist loading or a multi-lane, multi-box setup for multi-material printing, the EMU is able to easily grow with your needs. It is also modular, supporting any number of lane and base combinations.
 
 - 🧩 Modular. Add lanes anytime, no reprints  
 - 🌫️ Sealed dry boxes maintain 5–8% humidity  
@@ -26,7 +26,7 @@ Each lane is fully self-contained, so you can choose exactly how many lanes you 
 Expanding later is straightforward. Just print lane expanders for the base and add another dry box assembly. No need to reprint or replace existing parts.  
 
 #### Ease of Servicing  
-All electrical and mechanical components have tool-free or one screw access, making them immediately accessible. Live troubleshooting is possible even during a print.  
+All electrical and mechanical components are either one screw or completely tool-free and immediately accessible, making live troubleshooting possible even during a print.
 
 #### Sealed Dry Boxes  
 Each spool sits in its own fully enclosed dry box with an integrated desiccant holder.  
