@@ -58,10 +58,10 @@ Each lane includes:
 - Filament colour LED that illuminates the filament in the dry box  
 
 ## BOM
-<<Bom link....>>
+BOM Link
 
 ## Assembly videos
-<<Video links....>>
+Video links
 
 
 #### This work is licensed under a
