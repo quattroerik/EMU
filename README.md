@@ -19,37 +19,48 @@ The EMU supports any number of lanes and base configurations; whether it is a **
 
 ## Design Objectives
 
-#### Modularity  
-Each lane is fully self-contained, so you can choose exactly how many lanes you need and group them as you like. Mix and match lanes across multiple base units, or use a stand-alone single lane for extruder loading and print assistance.
+#### Modularity & Upgradeability  
+Each lane is fully self-contained, so you can choose exactly how many lanes you need and group them as you like. You can also mix and match lanes across multiple base units, or use a stand-alone single lane for extruder loading and print assistance. 
 
-#### Upgradeability  
-Expanding later is straightforward. Just print lane expanders for the base and add another dry box assembly — no need to reprint or replace existing parts when upgrading from a 2 lane base. 
+Expanding later is also straightforward. Just print lane expanders for the base and add another dry box assembly. There is no need to reprint or replace existing parts when upgrading from a 2 lane base. 
 
 #### Ease of Servicing 
-All electrical and mechanical components are either one screw or completely tool-free and immediately accessible, making live troubleshooting possible even during a print.
+All electrical and mechanical components are either one screw or completely tool-free and immediately accessible, making live troubleshooting possible even during a print. 
+
+Access to the electronics is easy - just lift the dry box off its base for full access. The gate stepper tensioning screw is accessible without any dissassembly allowing on the fly tuning of gate tension. Finally, removing the filamentalist, stepper and stepper assembly is possible via one screw.
 
 #### Sealed Dry Boxes  
-Each spool sits in its own purpose built, fully sealed dry box with an integrated desiccant holder. 
-- Humidity can be maintained in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks.
-- Opening one box doesn’t disturb its neighbours, extending effective desiccant life.
+Each spool sits in its own purpose built, fully sealed dry box with an integrated desiccant holder. The boxes use foam cord in areas of potential air ingress to create a tight seal, with the clear 1.5mm PETG/PC panel also offering visibility inside the dry box.
+
+The dry boxes can maintain humidity in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks. Finally, as each dry box is self contained, opening one to reload filament, doesn’t disturb its neighbours, extending the effective desiccant life.
 
 #### Integrated Humidity Sensors 
-Each lane monitors its own environment, letting you know when it’s time to refresh the desiccant. Humidity sensors integrated into Mainsail (and in Home Assistant for historical data tracking via the mainsail HA integration).
+Each lane monitors its own environment, letting you know when it’s time to refresh the desiccant. The humidity sensors are integrated into Mainsail (and optionally in Home Assistant for historical data tracking via the mainsail HA integration).
 
 #### Endless Spool Reliability
-Dual pre-gate sensors and isolated spools ensure consistent run-out detection and reliable re-wind/feeding. Left over, rewound, filament interfering with neighbouring lanes is eliminated by design.  
+Dual pre-gate sensors ensure consistent run-out detection and reliable re-wind, as the filament is always gripped by the gate hobbed gear assembly. 
+
+In addition, the isolated boxes ensure that any left over, rewound, filament cannot interfere with neighbouring lanes, preventing a jam.
 
 #### Built on the Filamentalist
-The lane design is based on the proven filamentalist V3 with 688 bearings, with no modifications necessary. 
+The lane assembly is based on the proven filamentalist V3 design with 688 bearings, with no modifications necessary. 
 - Existing 688 bearing version filamentalist parts can be reused when building an EMU.
 - Optionally, the revised tensioner mount further improves pre-gate switch actuation.
+- Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
 
 #### Integrated Gate Stepper 
-Each lane has its own gate stepper inside the dry box, resulting in a compact, fully self-contained mechanical design.
+Each lane has its own gate stepper inside the dry box, resulting in a compact, fully self-contained mechanical design. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
+
+In addition, you can swap out complete dry boxes by unplugging two JST plugs and the bowden tube. This is helpful if you want to maintain a particularly moisture sensitive filament undisturbed when swapping it out from the EMU.
 
 #### Simple Electronics
 The recommended BOM uses readily available EBB42 boards (with EBB36 fully compatible). 
-- MMB v2 boards can also be reused, though without humidity sensing due to I²C limitations and slightly more intricate wiring.
+- MMB v2 boards can also be reused, though without humidity sensing due to I²C limitations and a slightly more intricate wiring.
+
+In addition, each lane has its own ventilation fan, ensuring the stepper drivers do not overheat, even when the unit is placed on top of a hot printer. With the EBB42 and EBB36, the ventilation fans can also be speed controlled to minimize noise.
+
+#### Easy mounting
+The EMU base assembly can be securely mounted on extrusions or using rubber feet directly on the printer or besides it. In either case the electronics remain accessible without needing to remove the unit from its mounts.
 
 #### Per-lane Controls  
 Each lane includes its own eject button, status LED, and a filament colour LED that illuminates the dry box. 
