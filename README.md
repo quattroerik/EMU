@@ -1,6 +1,8 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-# EMU – Expandable Multi-material Unit - In Development - Comming Soon
+# EMU – Expandable Multi-material Unit
+
+***In Development - Coming Soon***
 
 **Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
@@ -67,7 +69,7 @@ The lane assembly is based on the proven **filamentalist V3 design with 688 bear
 </p>
 
 #### Integrated Gate Stepper 
-Each lane has its own gate stepper inside the dry box, resulting in a compact,** fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
+Each lane has its own gate stepper inside the dry box, resulting in a compact, **fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
 
 In addition, you can **swap out complete dry boxes** by unplugging two JST plugs and the bowden tube. This is helpful if you want to maintain a particularly moisture sensitive filament undisturbed when swapping it out from the EMU.
 
