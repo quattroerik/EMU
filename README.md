@@ -103,5 +103,5 @@ ToDo: Video links
 
 ### License clarification regarding non-commercial use:
 The non-commercial aspect of this license is for cases where EMU is the product, not the use of EMU to create products.<br/>
-I.e. If you wish to sell MMU as a product, you would need to seek a commercial license before doing so. </br>
-It is NOT intended to prevent the use of EMU in a printer that you use to provide commercial services. If you want to run EMU as a toolhead for your print farm printers, go right ahead.
+I.e. If you wish to sell EMU as a product, you would need to seek a commercial license before doing so. </br>
+It is NOT intended to prevent the use of EMU with a printer that you use to provide commercial services. If you want to run EMU in your print farm, go right ahead.
