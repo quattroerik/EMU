@@ -2,9 +2,15 @@
 
 # EMU – Expandable Multi-material Unit
 
+***In Development - Coming Soon***
+
 **Introducing the EMU, the Expandable Multi-material Unit from down under.** The EMU is a modular, flexible, upgradable, reliable and service-friendly MMU designed around the proven filamentalist V3 platform.
 
 The EMU supports any number of lanes and base configurations; whether it is a **single lane setup** to assist filament loading, a **dual lane configuration** for endless spool, or a **multi-lane, multi-box setup** for multi-material printing. It is also **expandable**, with no re-printing of parts required when upgrading from a 2 lane to a multiple lane setup.
+
+<p align="center">
+  <img src="docs/images/EMU_multi_lane_unit.png" width="100%">
+</p>
 
 #### Highlights:
 - **Modular & Expandable** design, able to add lanes anytime and in any configuration. No reprints when upgrading from a 2 lane setup.
@@ -15,7 +21,11 @@ The EMU supports any number of lanes and base configurations; whether it is a **
 - **Off-the-shelf electronics** (EBB42 with EBB36 also fully compatible).  
 - **Per-lane controls** - eject button + LEDs.
 
-![alt text](docs/images/EMU_render.png)
+<p align="center">
+  <img src="docs/images/EMU_single_lane_unit_front.png" width="45%">
+  <img src="docs/images/EMU_two_lane_unit_front.png" width="45%">
+</p>
+
 
 ## Design Objectives
 
@@ -34,6 +44,11 @@ Each spool sits in its own purpose built, **fully sealed dry box with an integra
 
 The dry boxes can maintain humidity in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks. Finally, as each dry box is self contained, opening one to reload filament, doesn’t disturb its neighbours, extending the effective desiccant life.
 
+<p align="center">
+  <img src="docs/images/EMU_single_lane_unit_front.png" width="40%">
+  <img src="docs/images/EMU_single_lane_unit_open.png" width="40%">
+</p>
+
 #### Integrated Humidity Sensors 
 Each lane monitors its own environment, letting you know when it’s **time to refresh the desiccant**. The humidity sensors are integrated into Mainsail (and optionally in Home Assistant for historical data tracking via the mainsail HA integration).
 
@@ -48,8 +63,13 @@ The lane assembly is based on the proven **filamentalist V3 design with 688 bear
 - Optionally, the revised tensioner mount further improves pre-gate switch actuation.
 - Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
 
+<p align="center">
+  <img src="docs/images/EMU_integrated_gate_unit_close_up.png" width="45%">
+  <img src="docs/images/EMU_integrated_gate_unit.png" width="45%">
+</p>
+
 #### Integrated Gate Stepper 
-Each lane has its own gate stepper inside the dry box, resulting in a compact,** fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
+Each lane has its own gate stepper inside the dry box, resulting in a compact, **fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
 
 In addition, you can **swap out complete dry boxes** by unplugging two JST plugs and the bowden tube. This is helpful if you want to maintain a particularly moisture sensitive filament undisturbed when swapping it out from the EMU.
 
@@ -65,10 +85,10 @@ The EMU base assembly can be securely **mounted on extrusions** or using **rubbe
 Each lane includes its own eject button, status LED, and a filament colour LED that illuminates the dry box. 
 
 ## BOM
-BOM Link
+ToDo: BOM Link
 
 ## Assembly videos
-Video links
+ToDo: Video links
 
 
 #### This work is licensed under a
