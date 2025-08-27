@@ -22,8 +22,8 @@ The EMU supports any number of lanes and base configurations; whether it is a **
 - **Per-lane controls** - eject button + LEDs.
 
 <p align="center">
-  <img src="docs/images/EMU_single_lane_unit_front.png" width="45%">
-  <img src="docs/images/EMU_two_lane_unit_front.png" width="45%">
+  <img src="docs/images/EMU_single_lane_unit_front.png" width="49%">
+  <img src="docs/images/EMU_two_lane_unit_front.png" width="49%">
 </p>
 
 
@@ -45,8 +45,7 @@ Each spool sits in its own purpose built, **fully sealed dry box with an integra
 The dry boxes can maintain humidity in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks. Finally, as each dry box is self contained, opening one to reload filament, doesn’t disturb its neighbours, extending the effective desiccant life.
 
 <p align="center">
-  <img src="docs/images/EMU_single_lane_unit_front.png" width="40%">
-  <img src="docs/images/EMU_single_lane_unit_open.png" width="40%">
+  <img src="docs/images/EMU_single_lane_unit_open.png" width="90%">
 </p>
 
 #### Integrated Humidity Sensors 
@@ -64,8 +63,8 @@ The lane assembly is based on the proven **filamentalist V3 design with 688 bear
 - Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
 
 <p align="center">
-  <img src="docs/images/EMU_integrated_gate_unit_close_up.png" width="45%">
-  <img src="docs/images/EMU_integrated_gate_unit.png" width="45%">
+  <img src="docs/images/EMU_integrated_gate_unit_close_up.png" width="49%">
+  <img src="docs/images/EMU_integrated_gate_unit.png" width="49%">
 </p>
 
 #### Integrated Gate Stepper 
