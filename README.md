@@ -88,11 +88,21 @@ The EMU base assembly can be securely **mounted on extrusions** or using **rubbe
 #### Per-lane Controls  
 Each lane includes its own eject button, status LED, and a filament colour LED that illuminates the dry box. 
 
-## BOM
-ToDo: BOM Link
+## BOM  
+[Draft BOM here](https://docs.google.com/spreadsheets/d/1jYJXBgpc_iLDfC17fC2LTYKrSEy5ocPbGEQ_EEOGCvI)
 
-## Assembly videos
-ToDo: Video links
+
+## Assembly Videos
+
+**Part 1: Filamentalist and Stepper Assembly Guide**  
+[![Filamentalist and Stepper Assembly Guide](https://img.youtube.com/vi/5g49L0-09fw/0.jpg)](https://www.youtube.com/watch?v=5g49L0-09fw)
+
+**Part 2: Drybox Assembly Guide** *(To Do)*
+
+**Part 3: Base Assembly Guide** *(To Do)*
+
+**Part 4: Wiring Guide** *(To Do)*
+
 
 
 #### This work is licensed under a
