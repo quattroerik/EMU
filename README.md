@@ -95,7 +95,7 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 ## Assembly Videos
 
 **Part 1: Filamentalist and Stepper Assembly Guide**  
-[![Filamentalist and Stepper Assembly Guide](https://img.youtube.com/vi/5g49L0-09fw/0.jpg)](https://www.youtube.com/watch?v=5g49L0-09fw)
+[![Filamentalist and Stepper Assembly Guide](https://img.youtube.com/vi/XctqJH2nCFM/0.jpg)](https://www.youtube.com/watch?v=XctqJH2nCFM)
 
 **Part 2: Drybox Assembly Guide** *(To Do)*
 
