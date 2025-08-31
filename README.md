@@ -62,7 +62,7 @@ Dual pre-gate sensors ensure **consistent run-out detection** and reliable re-wi
 In addition, the isolated boxes ensure that any left over, rewound, filament cannot interfere with neighbouring lanes, **preventing a jam**.
 
 #### Built on the Filamentalist
-The lane assembly is based on the proven **filamentalist V3 design with 688 bearings**, with no modifications necessary. 
+The lane assembly is based on the proven **[filamentalist V3 design with 688 bearings](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/Filamentalist_FV3_Rewinder)**, with no modifications necessary. 
 - Existing 688 bearing version filamentalist parts can be reused when building an EMU.
 - Optionally, the revised tensioner mount further improves pre-gate switch actuation.
 - Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
@@ -94,10 +94,13 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 
 ## Assembly Videos
 
-**Part 1: Filamentalist and Stepper Assembly Guide**  
+**Part 1: Filamentalist and Stepper Assembly Guide**<br/>
 [![Filamentalist and Stepper Assembly Guide](https://img.youtube.com/vi/XctqJH2nCFM/0.jpg)](https://www.youtube.com/watch?v=XctqJH2nCFM)
+<br/>
 
-**Part 2: Drybox Assembly Guide** *(To Do)*
+**Part 2: Drybox Assembly Guide**<br/>
+[![Dry Box Assembly Guide](https://img.youtube.com/vi/JZzMyOBCdSM/0.jpg)](https://www.youtube.com/watch?v=JZzMyOBCdSM)
+<br/>
 
 **Part 3: Base Assembly Guide** *(To Do)*
 
