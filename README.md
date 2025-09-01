@@ -22,7 +22,7 @@ The EMU supports any number of lanes and base configurations; whether it is a **
 - **One screw or tool-free** access and servicing, even mid-print.
 - **Sealed dry boxes** able to maintain humidity in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks.  
 - **Humidity** sensors per lane for environmental monitoring.
-- **Reliable endless spool** with no chance of the rewound filament interfering with neighbouring gates.
+- **Reliable endless spool** with no chance of the rewound filament interfering with neighbouring rolls.
 - **Off-the-shelf electronics** (EBB42 with EBB36 also fully compatible).  
 - **Per-lane controls** - eject button + LEDs.
 
@@ -42,7 +42,7 @@ Expanding later is also straightforward. Just print lane expanders for the base 
 #### Ease of Servicing 
 All electrical and mechanical components are either **one screw or completely tool-free and immediately accessible**, making live troubleshooting possible even during a print. 
 
-Access to the electronics is easy - just lift the dry box off its base for full access. The gate stepper tensioning screw is accessible without any dissassembly allowing on the fly tuning of gate tension. Finally, removing the filamentalist, stepper and stepper assembly is possible via one screw.
+Access to the electronics is easy - just lift the dry box off its base for full access. The stepper tensioning screw is accessible without any dissassembly allowing on the fly tuning of filament grip. Finally, removing the filamentalist, stepper and stepper assembly is possible via one screw.
 
 #### Sealed Dry Boxes  
 Each spool sits in its own purpose built, **fully sealed dry box with an integrated desiccant holder**. The boxes use foam cord in areas of potential air ingress to create a tight seal, with the clear 1.5mm PETG/PC panel also offering visibility inside the dry box.
@@ -57,14 +57,14 @@ The dry boxes can maintain humidity in the 15% range (with silica gel) or 5–8%
 Each lane monitors its own environment, letting you know when it’s **time to refresh the desiccant**. The humidity sensors are integrated into Mainsail (and optionally in Home Assistant for historical data tracking via the mainsail HA integration).
 
 #### Endless Spool Reliability
-Dual pre-gate sensors ensure **consistent run-out detection** and reliable re-wind, as the filament is always gripped by the gate hobbed gear assembly. 
+Dual pre-stepper sensors ensure **consistent run-out detection** and reliable re-wind, as the filament is always gripped by the stepper hobbed gear assembly. 
 
 In addition, the isolated boxes ensure that any left over, rewound, filament cannot interfere with neighbouring lanes, **preventing a jam**.
 
 #### Built on the Filamentalist
 The lane assembly is based on the proven **[filamentalist V3 design with 688 bearings](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/Filamentalist_FV3_Rewinder)**, with no modifications necessary. 
 - Existing 688 bearing version filamentalist parts can be reused when building an EMU.
-- Optionally, the revised tensioner mount further improves pre-gate switch actuation.
+- Optionally, the revised tensioner mount further improves pre-stepper switch actuation.
 - Wide spool size compatibility - built on the 74mm filamentalist stock setup and fits even KVP filament spools.
 
 <p align="center">
@@ -72,8 +72,8 @@ The lane assembly is based on the proven **[filamentalist V3 design with 688 bea
   <img src="docs/images/EMU_integrated_gate_unit.png" width="49%">
 </p>
 
-#### Integrated Gate Stepper 
-Each lane has its own gate stepper inside the dry box, resulting in a compact, **fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
+#### Integrated Filament Driving Stepper 
+Each lane has its own driving stepper inside the dry box, resulting in a compact, **fully self-contained mechanical design**. In case of mechanical issue, you can swap out filamentalist assemblies with 3 screws, unplugging 2 JST plugs and unplugging the bowden tube. 
 
 In addition, you can **swap out complete dry boxes** by unplugging two JST plugs and the bowden tube. This is helpful if you want to maintain a particularly moisture sensitive filament undisturbed when swapping it out from the EMU.
 
@@ -91,6 +91,7 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 ## BOM  
 [Draft BOM here](https://docs.google.com/spreadsheets/d/1jYJXBgpc_iLDfC17fC2LTYKrSEy5ocPbGEQ_EEOGCvI)
 
+![image](https://github.com/user-attachments/assets/b9e84f20-7c99-4c79-a598-5d96e515e33e)
 
 ## Assembly Videos
 
