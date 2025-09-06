@@ -91,8 +91,6 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 ## BOM  
 [Draft BOM here](https://docs.google.com/spreadsheets/d/1jYJXBgpc_iLDfC17fC2LTYKrSEy5ocPbGEQ_EEOGCvI)
 
-![image](https://github.com/user-attachments/assets/b9e84f20-7c99-4c79-a598-5d96e515e33e)
-
 ## Assembly Videos
 
 **Part 1: Filamentalist and Stepper Assembly Guide**<br/>
@@ -107,6 +105,30 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 
 **Part 4: Wiring Guide** *(To Do)*
 
+## Wiring Diagrams
+Depending on the number of lanes assembled, the wiring will vary slightly.
+**Key wiring notes:**
+Below a 2+ lane setup is illustrated. 
+1. Please note that the sync feedback sensor is connected to the first lane board. The encoder and combiner endstop is connected to the second lane EBB board.
+2. The CAN bus umbilical from the printer feeds power and the CAN H / L wires to the WAGO connectors in the first lane. 
+3. A 24V and Ground "bus" is established throughout the base unit using the two rearward WAGO connectors (WAGO 3 and WAGO 4).
+4. The EBB boards connect to the power bus for power via their XT ports.
+5. The EBB boards are daisy chained to establish the CANbus network. The first lane canbus High / Low / Power wires are connected to the first lane WAGO connectors.
+7. The second lane canbus High / Low wires are connected to the CAN out dupont connectors on the first board itself. Creates the daisy chain
+9. The last EBB board needs the 120Ohm resistor installed.
+10. The second lane, third lane etc 2nd WAGO connector is used to connect the Neopixel Out wire from the eject button to the Neopixel In wire on the dry box.
+11. The second lane, third lane etc 1st WAGO connector is used to connect the Neopixel Out wire from the dry box to the next lane Neopixel In wire on the eject button.
+
+**EBB 42 wiring diagram**<br/>
+<p align="center">
+  <img src="docs/wiring_diagrams/EMU_wiring_ebb42.png" width="95%">
+</p>
+
+**EBB 36 wiring diagram**<br/>
+Please note, the EBB36 uses identical pin definitions to the EBB42.
+<p align="center">
+  <img src="docs/wiring_diagrams/EMU_wiring_ebb36.png" width="95%">
+</p>
 
 
 #### This work is licensed under a
