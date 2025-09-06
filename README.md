@@ -21,7 +21,8 @@ The EMU supports any number of lanes and base configurations; whether it is a **
 - [Design Objectives & Key Features](#design-objectives)
 - [BOM](#bom)
 - [Assembly Videos](#assembly-videos)
-- [Wiring Diagrams](#wiring-diagrams)
+- [Wiring Instructions and Diagrams](#wiring-diagrams)
+- [Render Gallery](#render-gallery)
 - [License](#this-work-is-licensed-under-a)
 
 #### Highlights:
