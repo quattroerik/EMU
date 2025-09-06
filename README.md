@@ -162,6 +162,19 @@ Depending on the combined power consumption, you may need to consider whether a 
 
 As a rule of thumb, a 12 lane EMU build with 4 Z steppers and 2 AB steppers running moderately high currents and high print speeds on a Voron 2.4 may require a 350Watt power supply to ensure adequate power headroom.
 
+
+### Render Gallery
+<p align="center">
+  <img src="docs/images/EMUonV2.35.png" width="49%">
+  <img src="docs/images/EMUonV2.4.29.png" width="49%">
+</p>
+<p align="center">
+  <img src="docs/images/EMUonV2.36.png" width="49%">
+  <img src="docs/images/EMUonV2.33.png" width="49%">
+</p>
+<br/>
+
+
 #### This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
