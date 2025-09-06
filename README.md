@@ -17,6 +17,13 @@ The EMU supports any number of lanes and base configurations; whether it is a **
   <img src="docs/images/EMU_multi_lane_unit.png" width="100%">
 </p>
 
+#### Table of Contents
+- [Design Objectives & Key Features](#design-objectives)
+- [BOM](#bom)
+- [Assembly Videos](#assembly-videos)
+- [Wiring Diagrams](#wiring-diagrams)
+- [License](#this-work-is-licensed-under-a)
+
 #### Highlights:
 - **Modular & Expandable** design, able to add lanes anytime and in any configuration. No reprints when upgrading from a 2 lane setup.
 - **One screw or tool-free** access and servicing, even mid-print.
@@ -130,6 +137,21 @@ Please note, the EBB36 uses identical pin definitions to the EBB42.
   <img src="docs/wiring_diagrams/EMU_wiring_ebb36.png" width="95%">
 </p>
 
+**Printer PSU**<br/>
+> [!WARNING]
+> You need to evaluate whether your PSU has enough power headroom to operate the number of lanes of your choosing. This entirely depends on your printer's overall setup and how many lanes of the EMU you are planning to build.
+
+Key factors to consider:
+1. PSU wattage
+2. How many A-B/X-Y and Z steppers 
+3. At what current the main printer steppers are operating at 
+4. Your heater cartridge wattage 
+5. What other power consuming accessories are connected to the printer (cpap, heater bed if 24V etc)
+6. How many EMU lanes you are planning to build
+
+Depending on the combined power consumption, you may need to consider whether a PSU upgrade is needed. 
+
+As a rule of thumb, a 12 lane EMU build with 4 Z steppers and 2 AB steppers running moderately high currents and high print speeds on a Voron 2.4 may require a 350Watt power supply to ensure adequate power headroom.
 
 #### This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
