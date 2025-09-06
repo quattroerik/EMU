@@ -109,7 +109,9 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 [![Dry Box Assembly Guide](https://img.youtube.com/vi/JZzMyOBCdSM/0.jpg)](https://www.youtube.com/watch?v=JZzMyOBCdSM)
 <br/>
 
-**Part 3: Base Assembly Guide** *(To Do)*
+**Part 3: Base Assembly Guide** <br/>
+[![Dry Box Assembly Guide](https://img.youtube.com/vi/2SmAMuXas38/0.jpg)](https://www.youtube.com/watch?v=2SmAMuXas38)
+<br/>
 
 **Part 4: Wiring Guide** *(To Do)*
 
