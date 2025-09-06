@@ -113,9 +113,9 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 **Part 4: Wiring Guide** *(To Do)*
 
 ## Wiring Diagrams
-Depending on the number of lanes assembled, the wiring will vary slightly.
-**Key wiring notes:**
-Below a 2+ lane setup is illustrated. 
+Depending on the number of lanes assembled, the wiring will vary slightly. Below are some initial wiring key notes to get your started.<br/>
+
+**Multi-lane setup wiring notes (2+ lanes)**
 1. Please note that the sync feedback sensor is connected to the first lane board. The encoder and combiner endstop is connected to the second lane EBB board.
 2. The CAN bus umbilical from the printer feeds power and the CAN H / L wires to the WAGO connectors in the first lane. 
 3. A 24V and Ground "bus" is established throughout the base unit using the two rearward WAGO connectors (WAGO 3 and WAGO 4).
@@ -125,6 +125,15 @@ Below a 2+ lane setup is illustrated.
 9. The last EBB board needs the 120Ohm resistor installed.
 10. The second lane, third lane etc 2nd WAGO connector is used to connect the Neopixel Out wire from the eject button to the Neopixel In wire on the dry box.
 11. The second lane, third lane etc 1st WAGO connector is used to connect the Neopixel Out wire from the dry box to the next lane Neopixel In wire on the eject button.
+
+**Adding a second base unit** <br/>
+You can daisy chain as many base units as you desire. Simply wire the XT30+2 CAN out port next to the last lane to the power bus and CAN H / L dupont connectors on the last EBB board. The next base unit can connect using a standard CAN Bus cable to the first unit.
+
+
+**Single-lane setup wiring notes (2+ lanes)** <br/>
+1. A single lane setup does not support an encoder/combiner. Instead, the Post Extruder sensor is configured in the Happy Hare configuration as the gate sensor.
+2. There is no daisy chaining required. The single EBB board is connected to the first lane WAGO connectors.
+3. There is no daisy chaining of subsequent lane Neopixels. 
 
 **EBB 42 wiring diagram**<br/>
 <p align="center">
