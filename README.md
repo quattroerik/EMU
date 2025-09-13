@@ -113,8 +113,8 @@ Each lane includes its own eject button, status LED, and a filament colour LED t
 [![EMU Base Assembly Guide](https://img.youtube.com/vi/2SmAMuXas38/0.jpg)](https://www.youtube.com/watch?v=2SmAMuXas38)
 <br/>
 
-**Part 4: Wiring Guide** <br/>
-[![EMU Wiring Guide](https://img.youtube.com/vi/Iang2JYkTh8/0.jpg)](https://www.youtube.com/watch?v=Iang2JYkTh8)
+**Part 4: Electronics Assembly Guide** <br/>
+[![EMU Elecrronics Assembly Guide](https://img.youtube.com/vi/Iang2JYkTh8/0.jpg)](https://www.youtube.com/watch?v=Iang2JYkTh8)
 <br/>
 
 ## Wiring Diagrams
